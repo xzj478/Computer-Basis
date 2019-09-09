@@ -10,3 +10,4 @@
 ### man XXX : Manual of the command;
 ### XXX (press tab): the command which include XXX will be listed;
 ### uname(-a) : details of the OS.
+### history(>some output file) : list of command line we used before(output to the file we named);
