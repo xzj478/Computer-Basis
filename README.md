@@ -1,5 +1,5 @@
 # Computer-Basis
-## Class 02 Command we learned:
+## **Class 02 Command we learned:**
 ### Ctrl+T : Open new window of Terminal;
 ### Ctrl+C : Open new tab of Terminal;
 ### Ctrl+L : Clear terminal commands line;
