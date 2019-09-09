@@ -1,0 +1,11 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox
+    4  echo $0
+    5  uname
+    6  uname -a
+    7  uname all
+    8  man uname
+    9  uname -a
+   10  history
+   11  history > history_20190909.txt
