@@ -14,29 +14,52 @@
    14  pwd
    15  ls -la
    16  exit
-   17  cd ..
-   18  pwd
-   19  cd ..
-   20  pwd
-   21  ls -al
-   22  ls -la
-   23  cd ~
-   24  cd home
-   25  cd /
-   26  cd /home
-   27  cd ~
-   28  pwd
-   29  mkdir MyDirectory
-   30  ls
-   31  cd MyDirectory/
-   32  ls
-   33  ls -al
-   34  cd
-   35  rmdir MyDirectory/
-   36  ls
-   37  cd /
-   38  mkdir bk
-   39  cd
-   40  ls -l /
-   41  history -> history_20190916.txt
-   42  history > history_20190916.txt
+   17  ls
+   18  touch a.txt
+   19  ls -l
+   20  ls -l a.txt
+   21  cat a.txt
+   22  echo Hello World!
+   23  echo Hello World! > b.txt
+   24  ls -l b.txt 
+   25  cat b.txt 
+   26  echo Hello World again! > b.txt 
+   27  ls -l b.txt 
+   28  echo Hello World! >> b.txt
+   29  cat b.txt 
+   30  ls -l b.txt 
+   31  echo -e "Hello\tWorld!"
+   32  echo -e "Hello\vWorld!"
+   33  echo -e "Hello\vWorld!" > c.txt
+   34  man echo
+   35  c.txt > d.txt
+   36  cat c.txt > d.txt 
+   37  cat  d.txt 
+   38  cat c.txt 
+   39  rm a.txt 
+   40  ls -l
+   41  ls -l *.txt
+   42  touch ml.txt
+   43  touch ln.xt
+   44  rm *l*.*xt
+   45  ls -l
+   46  touch ml.txt
+   47  touch ln.xt
+   48  ls -l
+   49  rm l.xt
+   50  rm *l.*xt
+   51  ls -l
+   52  cp c.txt c1.txt
+   53  ls -l
+   54  cd /
+   55  mv ~/c.txt ~/Music/d.txt
+   56  cd
+   57  ls -l
+   58  ls -l /Music
+   59  ls -l Music/
+   60  cat d.txt 
+   61  rm Music/*.*
+   62  ls -l Music/
+   63  mv c1.txt d1.txt
+   64  ls -l
+   65  history > history_20190916.txt 
