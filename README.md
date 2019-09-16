@@ -1,5 +1,5 @@
 # Computer-Basis
-## **Class 02 Command we learned:**
+## **Class 02 Commands we learned:**
 ### Ctrl+T : Open new window of Terminal;
 ### Ctrl+C : Open new tab of Terminal;
 ### Ctrl+L : Clear terminal commands line;
@@ -11,3 +11,11 @@
 ### XXX (press tab): the command which include XXX will be listed;
 ### uname(-a) : details of the OS.
 ### history(>some output file) : list of command line we used before(output to the file we named);
+## **Class 03 Commands we learned:**
+### mkdir XXX : Create new directory;
+### rmdir XXX : Remove directory;
+### ls -a : Show all the directories;
+### ls -l : Show details of directories;
+### ls -al: Show all the details of all directories;
+### cat XXX : Show the file content;
+### cd XXX : Go to some address;
