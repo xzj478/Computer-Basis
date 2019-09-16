@@ -1,9 +1,9 @@
 # Computer-Basis
 
 ## **Class 02 Commands we learned:**
-### Ctrl+T : Open new window of Terminal;
-### Ctrl+C : Open new tab of Terminal;
-### Ctrl+L : Clear terminal commands line;
+### Ctrl+Shift+T : Open new window of Terminal;
+### Ctrl+Shift+C : Open new tab of Terminal;
+### Ctrl+Shift+L : Clear terminal commands line;
 ### whoami : Who is the user now;
 ### pwd : Where is the user now;
 ### ls : Working list;
