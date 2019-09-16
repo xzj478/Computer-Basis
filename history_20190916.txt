@@ -63,3 +63,14 @@
    63  mv c1.txt d1.txt
    64  ls -l
    65  history > history_20190916.txt 
+   66  cat history_20190916.txt 
+   67  nano script.sh
+   68  ls
+   69  chmod 740 script.sh 
+   70  ls
+   71  cat log.txt
+   72  script.sh
+   73  cat script.sh 
+   74  log.txt
+   75  cat log.txt
+   76  history > history_20190916.txt 
