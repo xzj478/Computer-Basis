@@ -1,4 +1,4 @@
-# Computer-Basis
+# Computer-Basis/n
 
 ## **Class 02 Commands we learned:**
 ### Ctrl+Shift+T : Open new window of Terminal;
