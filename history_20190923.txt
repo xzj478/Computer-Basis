@@ -1,0 +1,21 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/xzj478/Computer-Basis
+    4  ls -l
+    5  cd Computer-Basis/
+    6  pwd
+    7  ls -l
+    8  ls -la
+    9  git
+   10  nano git-upload
+   11  chmod 744 git-upload 
+   12  ls -l
+   13  ./git-upload 
+   14  whereis ls
+   15  ls -l /bin/ls
+   16  echo $PATH 
+   17  PATH=$PATH:~/Computer-Basis/
+   18  echo $PATH 
+   19  whereis git-upload
+   20  git-upload
+   21  history > history_20190923.txt
