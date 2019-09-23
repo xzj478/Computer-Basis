@@ -19,3 +19,40 @@
    19  whereis git-upload
    20  git-upload
    21  history > history_20190923.txt
+   22  git-upload 20190923_13_25
+   23  cd
+   24  ls -l
+   25  rm -rf Computer-Basis/
+   26  ls -l
+   27  git clone https://github.com/xzj478/Computer-Basis
+   28  ls -l
+   29  cd Computer-Basis/
+   30  ls -l
+   31  mkdir works
+   32  ls -l
+   33  cd works/
+   34  ls -l
+   35  nano elementary.c
+   36  cat elementary.c 
+   37  elementary.c
+   38  gcc elementary.c 
+   39  nano elementary.c 
+   40  gcc elementary.c 
+   41  ls -l
+   42  nano elementary.c 
+   43  gcc elementary.c -o prg1
+   44  ls -l
+   45  cat prg1
+   46  cat a.out
+   47  ./prg1
+   48  ls -l
+   49  rm prg1
+   50  dm a.out
+   51  rm a.out 
+   52  ls -l
+   53  cd
+   54  cd Computer-Basis/
+   55  ls -l
+   56  ./git-upload 20190923_14_10
+   57  cd
+   58  history > history_20190923.txt
