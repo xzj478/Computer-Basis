@@ -27,3 +27,10 @@
 ### mv *.* *.* : move 1 file to another place(also could rename it);
 ### rm *.* : remove 1 file;
 ### *.* >> *.* : continue 2nd file by 1st file; 
+
+## **Class 04 Commands we learned:**
+### git clone XXX(github link): get repositories from github;
+### nano XXX: write script or file in nano UI;
+### chmod 744: change permission to 744;
+### PATH=$PATH:~/XXX/: extend XXX directory into path;
+### gcc: GNU C Compiler;
