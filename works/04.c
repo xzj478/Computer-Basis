@@ -16,4 +16,6 @@ int main() {
 
 	fun();
 	printf("after fun twice, %c \n", x);
+
+	return 0;
 }

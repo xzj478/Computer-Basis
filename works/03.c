@@ -17,4 +17,6 @@ int main() {
 
 	fun(x);
 	printf ("after using function twice, %c \n", x);
+
+	return 0;
 }
