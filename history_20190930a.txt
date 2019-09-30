@@ -1,0 +1,82 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/xzj478/Computer-Basis
+    4  ls -l
+    5  cd Computer-Basis/
+    6  cd works/
+    7  pwd
+    8  ls -l
+    9  nano 01.c
+   10  ls -l
+   11  nano 02.c
+   12  nano 03.c
+   13  nano 04.c
+   14  nano 05.c
+   15  gcc 01.c
+   16  cat 01.c
+   17  gcc 01.c -o prg01
+   18  ls -l
+   19  cat a.out 
+   20  cat prg01 
+   21  prg01
+   22  a.out
+   23  ./prg01 
+   24  ./a.out 
+   25  gcc 02.c -o prg02
+   26  nano 02.c
+   27  gcc 02.c -o prg02
+   28  nano 02.c 
+   29  gcc 02.c -o prg02
+   30  nano 02.c 
+   31  gcc 02.c -o prg02
+   32  nano 02.c
+   33  gcc 02.c -o prg02
+   34  nano 02.c
+   35  gcc 02.c -o prg02
+   36  nano 02.c
+   37  gcc 02.c -o prg02
+   38  nano 02.c 
+   39  gcc 02.c -o prg02
+   40  ./prg02
+   41  nano 02.c 
+   42  gcc 02.c -o prg02
+   43  ./prg02
+   44  gcc 03.c -o prg03
+   45  ./prg03
+   46  nano 03.c 
+   47  gcc 04.c -o prg04
+   48  gcc 05.c -o prg05
+   49  ./ prg04
+   50  ./ prg05
+   51  gcc 04.c -o prg04
+   52  ./ prg04
+   53  ls -
+   54  ls -l
+   55  ./a.out 
+   56  ./prg02
+   57  ./prg03
+   58  ./prg04
+   59  ./prg05
+   60  nano 03.c 
+   61  gcc 03.c -o prg03
+   62  nano 03.c 
+   63  gcc 03.c -o pr
+   64  gcc 03.c -o prg03
+   65  ./prg03
+   66  ls -l
+   67  dm pr
+   68  rm pr
+   69  ls -l
+   70  nano 03.c 
+   71  gcc 03.c -o prg03
+   72  nano 03.c 
+   73  gcc 03.c -o prg03
+   74  ./prg03
+   75  .
+   76  ..
+   77  ../
+   78  ./
+   79  cd
+   80  cd .
+   81  cd Computer-Basis/
+   82  history > history_20190930a.txt
