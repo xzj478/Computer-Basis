@@ -1,0 +1,50 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/xzj478/Computer-Basis
+    4  ./Computer-Basis/
+    5  Computer-Basis/
+    6  cd Computer-Basis/
+    7  nano test.c
+    8  gcc test.c 
+    9  ./a.out 
+   10  nano test.c 
+   11  gcc test.c 
+   12  gcc test.c -o test.out
+   13  ./test.out 
+   14  nano test.c
+   15  gcc test.c -o test.out
+   16  nano test.c
+   17  gcc test.c -o test.out
+   18  nano test.c
+   19  gcc test.c -o test.out
+   20  nano test.c
+   21  gcc test.c -o test.out
+   22  nano test.c
+   23  gcc test.c -o test.out
+   24  nano test.c
+   25  gcc test.c -o test.out
+   26  ./test.out 
+   27  nano test.c
+   28  gcc test.c -o test.out
+   29  nano test.c
+   30  gcc test.c -o test.out
+   31  ./test.out 
+   32  cat test.out
+   33  cat test.c
+   34  gcc test.c
+   35  ./test.out 
+   36  nano test.c
+   37  gcc test.c -o test.out
+   38  ./test.out 
+   39  nano test.c
+   40  gcc test.c -o test.out
+   41  nano test.c
+   42  gcc test.c -o test.out
+   43  ./test.out 
+   44  nano test.c
+   45  gcc test.c -o test.out
+   46  ./test.out 
+   47  nano test.c
+   48  gcc test.c -o test.out
+   49  nano test.c
+   50  history > history_20191021.txt
