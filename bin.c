@@ -11,6 +11,8 @@ int * bin(char b){
 	arr[7-i] = 1;
 	if(b>1){
 		bin(b);}
+	else if(b==1){
+		arr[7] = 1;}
 	return arr;
 }
 
