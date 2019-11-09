@@ -22,7 +22,7 @@ void lew(char str0[]){
         }
     }
 	*(p+n) = x - m;
-	printf("The length of each word is:\n");
+	printf("\nThe length of each word is:\n");
 	for(y = 0; y < n + 1; y++){
 		printf("%d ", *(p+y));}
 	printf("\n");
@@ -46,7 +46,7 @@ void ncl(char str2[]){
         d++;
         str2[a] = 0;
     }
-    printf("This is the frequency of each symbol appear:\n");
+    printf("\nThis is the frequency of each symbol appear:\n");
     for(k = 0; c[k] != '\0'; k++){
         printf("%c:%d\n", c[k], t[k]);
     }
