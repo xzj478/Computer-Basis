@@ -12,41 +12,43 @@ void hmw(char str[]){
 
 void lew(char str0[]){
 	int x, y, n=0, m=0;
-	int *p;
+	int *p[50]={0};
 	for(x = 0; str0[x] != '\0'; x++){
 		if(str0[x] == ' '){
-			*(p+n) = x - m;
-			m = x;
-			n++;}
-	}
+            *(p+n) = x - m;
+            m = x;
+            m++;
+            n++;
+        }
+    }
 	*(p+n) = x - m;
 	printf("The length of each word is:\n");
-	for(y = 0; y < n+1; y++){
+	for(y = 0; y < n + 1; y++){
 		printf("%d ", *(p+y));}
 	printf("\n");
 }
 
 void ncl(char str2[]){
-    int a, b, k, *t;
-    char *c;
+    int a, b, d=0, k, t[50]={0};
+    char c[50]={0};
     for(a = 0; str2[a] != '\0'; a++){
-        if(str2[a] == 0){
+        if(str2[a] == ' ' || str2[a] == '0'){
             continue;
         }
-        *(t+a) = 0;
-        for(b = a; str2[b] != '\0'; b++){
-            if(str2[a] == str2[b+1]){
-                str2[b+1] = 0;
-                *(t+a) = *(t+a) + 1;
+        for(b = a + 1; str2[b] != '\0'; b++){
+            if(str2[a] == str2[b]){
+                str2[b] = '0';
+                t[d]++;
             }
         }
-        *(c+a) = str2[a];
-        *(t+a) = *(t+a) + 1;
+        c[d] = str2[a];
+        t[d]++;
+        d++;
         str2[a] = 0;
     }
     printf("This is the frequency of each symbol appear:\n");
-    for(k = 0; *(c+k) != '\0'; k++){
-        printf("%c: %d", *(c+k), *(t+k));
+    for(k = 0; c[k] != '\0'; k++){
+        printf("%c:%d\n", c[k], t[k]);
     }
 }
 
